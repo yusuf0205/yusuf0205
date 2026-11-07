@@ -1,31 +1,42 @@
-# Hi, I am Mohammed Yusuf
+# Mohammed Yusuf
 
-B.Tech ECE at NIT Puducherry (CGPA 9.02), working on embedded systems, CubeSat flight software, robotics and Edge AI.
+B.Tech in Electronics and Communication Engineering at the National Institute of Technology Puducherry (CGPA 9.02).
 
-I build satellite telemetry and telecommand systems, firmware, and small intelligent hardware that has to work reliably in the real world.
+I build CubeSat flight software, embedded firmware, visible-light communication links, robotic manipulators, and compressed neural networks for edge hardware.
 
-## What I have built and done
+## Experience and Research
 
-- **MiniSat TM/TC**: CubeSat flight software in C with a Python ground station. CCSDS space packets, HDLC framing, CRC 16, a 7 stage telecommand validation pipeline, a time tagged scheduler and FDIR. 34 of 34 tests pass, with 97 percent command success at a bit error rate of 10^-3 after retries.
-- **LTSAT CubeSat, L&T Technology Services**: 6 month internship on a CubeSat on board computer team, working on OBC code integration, TM/TC protocols, flight software and the ground segment. Ended August 2026.
-- **Edge AI research, NIT Calicut**: Adaptive Rank SVD compression for CNNs in PyTorch. 17 percent fewer parameters and 20 percent less compute, with only a 0.21 percent accuracy drop.
-- **Robotics**: a 4DOF robotic arm with inverse kinematics on Arduino Nano, plus an Edge AI sign language translator on ESP32 CAM with 29 classes at 99.2 percent accuracy.
+- **LTSAT CubeSat On-Board Computer Intern, L&T Technology Services** (Ended August 2026)
+  Worked for 6 months on a CubeSat On-Board Computer (OBC) engineering team focusing on flight software integration, telemetry and telecommand (TM/TC) protocol implementation, and ground segment verification.
+- **Edge AI Research Intern, NIT Calicut**
+  Implemented Adaptive Rank Singular Value Decomposition (ARSVD) for Convolutional Neural Networks in PyTorch under Dr. Ameer P.M. Reduced total model parameters by 17.19% and compute MACs by 19.94% with a 0.21% accuracy drop on MNIST.
 
-## Featured projects
+## Featured Engineering Projects
 
-- [MiniSat TMTC](https://github.com/yusuf0205/MiniSat-TMTC): CubeSat command and telemetry system, built from scratch
-- [ARSVD CNN Compression](https://github.com/yusuf0205/arsvd-cnn-compression): Adaptive Rank SVD model compression for Edge AI
-- [Nano 4DOF Manipulator](https://github.com/yusuf0205/Nano-4DOF-Manipulator): 4DOF robotic arm with inverse kinematics
-- [HTL B8 Hack](https://github.com/yusuf0205/HTL-B8-Hack): reverse engineering an industrial control board from e waste
+| Project | Domain | Stack | Highlights |
+| :--- | :--- | :--- | :--- |
+| [MiniSat-TMTC](https://github.com/yusuf0205/MiniSat-TMTC) | CubeSat Flight Software | C99, Python | CCSDS 133.0-B space packets, AX.25/HDLC bit-stuffed framing, CRC-16, 7-gate TC validation, time-tagged scheduler, FDIR, and lock-step ground station. 34/34 tests pass; 97% command success at 10^-3 BER. |
+| [LiFi-BFSK-VLC](https://github.com/yusuf0205/LiFi-BFSK-VLC) | Visible-Light Comm & DSP | Embedded C, ESP32, Arduino, Python | Binary FSK optical link (10/15 kHz at 1 kbps) with 8-phase Goertzel demodulation on ESP32 DMA ADC, XR2211 PLL receiver on Arduino Uno, Hamming(7,4) FEC, and 47 unit tests. |
+| [arsvd-cnn-compression](https://github.com/yusuf0205/arsvd-cnn-compression) | Edge AI & Model Compression | PyTorch, Python, Jupyter | Spectral-entropy rank selection and 2D/4D tensor factorization for Linear and Conv2d layers with hardware FLOPs safety checks. |
+| [Nano-4DOF-Manipulator](https://github.com/yusuf0205/Nano-4DOF-Manipulator) | Robotics & Control | C++, Arduino Nano, Processing | 4-DOF pick-and-place robotic arm with trigonometric inverse kinematics, teach-mode pose recorder, joint calibration tools, and Processing visualizer. |
+| [HTL-B8-Hack](https://github.com/yusuf0205/HTL-B8-Hack) | Hardware Reverse Engineering | C++, Arduino, TM1628 | Reverse-engineered PCB schematic, segment mapping, and custom Arduino driver for a salvaged HTL-B8 industrial control board. |
+| [gliderCAD](https://github.com/yusuf0205/gliderCAD) | Aerospace CAD | SolidWorks, STL | Multi-iteration 3D airframe parts, wing and tail assemblies, STL meshes, and engineering drawings for a fixed-wing glider. |
+| [MatlabLDRReading](https://github.com/yusuf0205/MatlabLDRReading) | Digital Signal Processing | MATLAB, Arduino Uno | Dual-channel LDR sensor acquisition, AC coupling, cross-correlation, 5-point moving-average FIR filtering, and real-time serial plotting. |
 
-## Skills
+## Technical Skills
 
-C, C++, Embedded C, Python, MATLAB, Verilog | CCSDS, HDLC and AX.25, UART, SPI, I2C | ESP32, Arduino, 8051 | KiCad, EasyEDA, Keil, Vivado | PyTorch, OpenCV, Git
+| Area | Tools and Technologies |
+| :--- | :--- |
+| **Languages** | C, C++, Embedded C, Python, MATLAB, Verilog, JavaScript, HTML/CSS |
+| **Protocols & Standards** | CCSDS Space Packets, AX.25 / HDLC, CRC-16, UART, SPI, I2C |
+| **Embedded & Hardware** | ESP32, Arduino (AVR ATmega328P), 8051, XR2211 PLL, TM1628 |
+| **EDA & Engineering Tools** | KiCad, EasyEDA, Keil uVision, Xilinx Vivado, SolidWorks |
+| **ML & Scientific Computing** | PyTorch, NumPy, SciPy, OpenCV, Matplotlib, Git |
 
-## Find me
+## Contact
 
-- Portfolio: https://yusuf0205.github.io
-- LinkedIn: https://www.linkedin.com/in/mohammedyusuf-ece
-- Email: muhammedyusuf.h18@gmail.com
+- **Portfolio**: [yusuf0205.github.io](https://yusuf0205.github.io)
+- **LinkedIn**: [linkedin.com/in/mohammedyusuf-ece](https://www.linkedin.com/in/mohammedyusuf-ece)
+- **Email**: [muhammedyusuf.h18@gmail.com](mailto:muhammedyusuf.h18@gmail.com)
 
-Open to paid embedded, firmware, robotics and space systems internships starting May 2027.
+Open to embedded systems, firmware, robotics, and space systems internships starting May 2027.
